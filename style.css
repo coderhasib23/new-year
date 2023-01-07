@@ -1,5 +1,6 @@
 *{
     margin: 0 auto;
+    padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -11,6 +12,11 @@
     padding: 20px 25px;
     border: 0;
     border-radius: 5px;
+}
+
+section{
+    margin-top: 150px;
+    max-width: 1140px;
 }
 
 /* banner style */
@@ -27,11 +33,7 @@ header{
     height: 100vh;
     text-align: right;
   }
-  
-.background-image {
-    
-  }
-  
+
 .text {
     width: 40%;
     margin-left: 400px;
@@ -45,4 +47,29 @@ header{
 .top-banner-description{
     margin: 36px 0;
 }
-  
+
+.previous-year{
+    display: flex;
+    align-items: center;
+}
+.previous-year-text{
+    margin-left: 87px;
+    
+}
+.text-header{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+.text-description{
+    color: #444343;
+    margin: 24px 0 16px;
+}
+
+ul.list li{
+    list-style: none;
+}
+ul.list li i {
+    color: #16D887;
+    margin-right: 8px;
+}
