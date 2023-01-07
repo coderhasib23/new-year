@@ -73,3 +73,100 @@ ul.list li i {
     color: #16D887;
     margin-right: 8px;
 }
+
+/* My Plans Section */
+
+.my-plans-item {
+    display: flex;
+    text-align: center;
+    gap: 12.4%;
+    margin-top: 60px;
+}
+
+.my-plans h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.item h3 {
+    font-size: 26px;
+    margin-top: 14px;
+}
+
+.item h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #737272;
+    margin-top: 8px;
+}
+
+/*  CTA Section */
+
+.bottom-banner {
+    background-image: linear-gradient(to left, rgb(245 246 252 / 0%), #005facfa), url(/images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px;
+    border-radius: 8px;
+}
+
+section.bottom-banner h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #151414;
+    padding: 8% 12%;
+    display: flex;
+    margin-top: 130px;
+}
+
+.footer-left h2 {
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.footer-left p {
+    color: #ffffff;
+    margin-right: 130px;
+}
+
+.contact-info {
+    margin: 20px 0;
+}
+
+.social img {
+    width: 36px;
+    margin-right: 8px;
+}
+
+.newslatter h3 {
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+input[type="email"] {
+    background: transparent;
+    padding: 18px 100px 18px 18px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+}
+
+input.cta-btn {
+    background: #005FAC;
+    color: #ffffff;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    border: 0;
+    border-radius: 5px;
+}
